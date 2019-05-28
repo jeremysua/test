@@ -19,9 +19,14 @@ class ViewController: UIViewController {
         hello = true
         
         testing()
+        testing2()
     }
 
     func testing(){
+        hello = false
+    }
+    
+    func testing2(){
         hello = false
     }
 }
